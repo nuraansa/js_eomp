@@ -21,9 +21,12 @@ nav {
 .social {
   font-size: 30px;
   margin-right: 20px;
+  color: #92700f;
 }
 .social:hover {
-  color: white;
+  color: black;
+  font-size: 35px;
+  transition: 0.4s;
 }
 /* home */
 .carousel-item {

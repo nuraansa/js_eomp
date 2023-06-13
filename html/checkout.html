@@ -68,7 +68,19 @@
     </nav>
     <!-- main content-->
     <div class="container-fluid">
-      <h1 class="display-5 text-center m-4 con">C H E C K O U T</h1>
+      <h1 class="display-5 text-center m-4 con">C H E C K O U T <hr></h1>
+      <table class="table align-middle container table-hover">
+        <thead class="table" style="background-color: #e1bd99">
+          <th>Image</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Delete</th>
+        </thead>
+        <tbody id="prodCart" class="table">
+        </tbody>
+      </table>
     </div>
     <!-- footer -->
     <div class="footer card-footer p-3">
@@ -94,6 +106,6 @@
       crossorigin="anonymous"
     ></script>
     <!-- custom JS -->
-    <script src="./script/code.js"></script>
+    <script src="../script/checkout.js"></script>
   </body>
 </html>

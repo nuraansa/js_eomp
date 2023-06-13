@@ -1,66 +1,75 @@
 let myProducts = [
   {
     id: 1,
-    name: "Jewel 1",
+    name: "I Jewel 1",
     price: "00.00",
     image: "https://i.postimg.cc/RZGVBCFL/p1s.jpg",
     description: "something",
+    quantity: ""
   },
   {
     id: 2,
-    name: "Jewel 2",
+    name: "H Jewel 2",
     price: "00.00",
     image: "https://i.postimg.cc/1X2HjZxG/LJ10s.jpg",
     description: "something",
+    quantity: ""
   },
   {
     id: 3,
-    name: "Jewel 3",
+    name: "G Jewel 3",
     price: "00.00",
     image: "https://i.postimg.cc/43gfVK0G/LJ7s.jpg",
     description: "something",
+    quantity: ""
   },
   {
     id: 4,
-    name: "Jewel 4",
+    name: "F Jewel 4",
     price: "00.00",
     image: "https://i.postimg.cc/Zq8kSVVt/p4s.jpg",
     description: "something",
+    quantity: ""
   },
   {
     id: 5,
-    name: "Jewel 5",
+    name: "E Jewel 5",
     price: "00.00",
     image: "https://i.postimg.cc/VNQyp39W/p7s.jpg",
     description: "something",
+    quantity: ""
   },
   {
     id: 6,
-    name: "Jewel 6",
+    name: "D Jewel 6",
     price: "00.00",
     image: "https://i.postimg.cc/TwdsXGKg/p3s.jpg",
     description: "something",
+    quantity: ""
   },
   {
     id: 7,
-    name: "Jewel 7",
+    name: "C Jewel 7",
     price: "00.00",
     image: "https://i.postimg.cc/4dWSfMcM/p6s.jpg",
     description: "something",
+    quantity: ""
   },
   {
     id: 8,
-    name: "Jewel 8",
+    name: "B Jewel 8",
     price: "00.00",
     image: "https://i.postimg.cc/2y2rf2j8/p2s.jpg",
     description: "something",
+    quantity: ""
   },
   {
     id: 9,
-    name: "Jewel 9",
+    name: "A Jewel 9",
     price: "00.00",
     image: "https://i.postimg.cc/BZgqDQ59/p5s.jpg",
     description: "something",
+    quantity: ""
   },
 ];
 
