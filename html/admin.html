@@ -64,23 +64,131 @@
       </div>
     </nav>
     <!-- main content-->
-    
-    <div class="row container-fluid">
+
+    <!-- <div class="row container-fluid">
       <div class="col m-4"><button class="sbtn">S O R T</button></div>
-      <div class="col"><h1 class="display-5 text-center m-4">A D M I N</h1></div>
+      <div class="col">
+        <h1 class="display-5 text-center m-4">A D M I N</h1>
+      </div>
       <div class="col m-4"><button class="abtn">A D D</button></div>
-    </div>
-    
-    <table class="main container text-center mb-4">
-      <tr id="row" class="container-fluid" style="background-color: #e1bd99">
-        <th>Image</th>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Price</th>
-        <th>Edit</th>
-        <th>Delete</th>
-      </tr>
-    </table>
+    </div> -->
+
+    <main>
+      <ul class="nav nav-pills mx-3" id="nav">
+        <div class="col m-4"><button class="sbtn">S O R T</button></div>
+        <div class="col">
+          <h1 class="display-5 text-center m-4 con">A D M I N</h1>
+        </div>
+        <div class="col m-4">
+          <a
+            ><button
+              type="button"
+              class="abtn"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Add
+            </button></a
+          >
+        </div>
+
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add Product</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form autocomplete="off">
+                  <input
+                    class="col-12 my-3"
+                    id="ID"
+                    type="text"
+                    placeholder="Enter ID"
+                    required
+                    style="display: none"
+                  />
+                  <label for="Input1" class="form-label">Item Name</label>
+                  <input
+                    class="col-12 my-3"
+                    id="name"
+                    type="text"
+                    placeholder="Enter Name"
+                    required
+                  />
+                  <label for="Input2" class="form-label">Item Image URL</label>
+                  <input
+                    class="col-12 my-3"
+                    id="image"
+                    type="text"
+                    placeholder="Enter URL"
+                    required
+                  />
+                  <label for="Input3" class="form-label"
+                    >Item Description</label
+                  >
+                  <input
+                    class="col-12 my-3"
+                    id="Price"
+                    type="text"
+                    placeholder="Enter Description"
+                    required
+                  />
+                  <label for="Input4" class="form-label">Item Price</label>
+                  <input
+                    class="col-12 my-3"
+                    id="img"
+                    type="text"
+                    placeholder="Enter Price"
+                    required
+                  />
+                  <div class="modal-footer">
+                    <button
+                      type="Submit"
+                      class="btn sub"
+                      data-bs-dismiss="modal"
+                      id="submit"
+                      value="submit"
+                      onclick="add()"
+                    >
+                      Add
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ul>
+      <div class="table crud-table text-center mb-4" id="productList">
+        <table class="table align-middle container-sm table-hover">
+          <thead class="table" style="background-color: #e1bd99">
+            <th>Image</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </thead>
+          <tbody id="prodList" class="table">
+
+          </tbody>
+        </table>
+      </div>
+    </main>
+
     <!-- footer -->
     <div class="footer card-footer p-3">
       <div class="container-fluid text-center">
@@ -93,7 +201,6 @@
             <i class="social bi bi-instagram"></i>
             <i class="social bi bi-facebook"></i>
             <i class="social bi bi-tiktok"></i>
-            <i class="social bi bi-whatsapp"></i>
           </div>
         </div>
       </div>

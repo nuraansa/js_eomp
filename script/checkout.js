@@ -1,0 +1,1 @@
+localStorage.getItem("products", JSON.stringify(myProducts));

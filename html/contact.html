@@ -67,22 +67,51 @@
       </div>
     </nav>
     <!-- main content-->
-    <h1 class="display-5 text-center m-4">C O N T A C T</h1>
+    <h1 class="display-5 text-center m-4 con">C O N T A C T</h1>
     <!-- forsmspree form -->
-    <div class="form container-fluid">
-        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mjvdnbjp" method="post">
-            <fieldset id="fs-frm-inputs">
-              <label for="full-name">Full Name</label>
-              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-              <label for="email-address">Email Address</label>
-              <input type="email" name="_replyto" id="email-address" placeholder="email@gmail.com" required="">
-              <label for="message">Message</label>
-              <textarea rows="5" name="message" id="message" placeholder="Type your message here :)" required=""></textarea>
-              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-            </fieldset>
-            <input type="submit" value="Submit" id="send" class="mx-auto">
-          </form>
-    </div>
+    <section class="contact">
+      <div class="form text-center d-flex shadow-lg">
+        <form
+          id="fs-frm"
+          name="simple-contact-form"
+          accept-charset="utf-8"
+          action="https://formspree.io/f/mjvdnbjp"
+          method="post"
+          class="forming"
+        >
+            <label for="full-name">Full Name</label>
+            <input
+              type="text"
+              name="name"
+              id="full-name"
+              placeholder="First and Last"
+              required
+            />
+            <label for="email-address">Email Address</label>
+            <input
+              type="email"
+              name="_replyto"
+              id="email-address"
+              placeholder="email@gmail.com"
+              required
+            />
+            <label for="message">Message</label>
+            <textarea
+              rows="5"
+              name="message"
+              id="message"
+              placeholder="Type your message here..."
+              required
+            ></textarea>
+            <input
+              type="hidden"
+              name="_subject"
+              id="email-subject"
+              value="Contact Form Submission"
+            /><button type="submit" value="Submit" id="send" class="mx-auto">Submit</button>
+        </form>
+      </div>
+    </section>
     <!-- footer -->
     <div class="footer card-footer p-3">
       <div class="container-fluid text-center">

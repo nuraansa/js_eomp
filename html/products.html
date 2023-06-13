@@ -43,12 +43,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline">
             <li class="nav-item">
-              <a class="nav-link" href="../index.html"
-                >Home</a
-              >
+              <a class="nav-link" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./products.html">Products</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./products.html"
+                >Products</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./checkout.html">Checkout</a>
@@ -65,7 +68,13 @@
     </nav>
     <!-- main content-->
     <div class="container-fluid">
-      <h1 class="display-5 text-center m-4">P R O D U C T S</h1>
+      <h1 class="display-5 text-center m-4 con">P R O D U C T S</h1><hr>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 m-5" id="productList"></div>
+    <div class="d-grid col-3 mx-auto m-4">
+      <a class="btn next rounded-1 shadow" role="button" href="./checkout.html"
+        >C H E C K O U T</a
+      >
     </div>
     <!-- footer -->
     <div class="footer card-footer p-3">
@@ -75,7 +84,11 @@
             <i class="bi bi-telephone"></i> +27 71 876 3680 <br />
             <i class="bi bi-envelope"></i> lilyjewels@gmail.com <br />
           </div>
-          <div class="col"><i class="social bi bi-instagram"></i> <i class="social bi bi-facebook"></i> <i class="social bi bi-tiktok"></i> <i class="social bi bi-whatsapp"></i></div>
+          <div class="col">
+            <i class="social bi bi-instagram"></i>
+            <i class="social bi bi-facebook"></i>
+            <i class="social bi bi-tiktok"></i>
+          </div>
         </div>
       </div>
     </div>
@@ -86,6 +99,6 @@
       crossorigin="anonymous"
     ></script>
     <!-- custom JS -->
-    <script src="./script/code.js"></script>
+    <script src="../script/code.js"></script>
   </body>
 </html>
